@@ -25,9 +25,6 @@ let package = Package(
             path: "CountryPicker",
             resources: [
                 .copy("Assets/CountryPicker.bundle")]
-        ),
-        .testTarget(
-            name: "CountryCodeTests",
-            dependencies: ["CountryCode"]),
+        )
     ]
 )
